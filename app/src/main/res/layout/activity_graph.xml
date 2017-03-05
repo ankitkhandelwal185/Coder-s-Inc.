@@ -5,6 +5,12 @@
     android:background="#ffffff"
     android:orientation="vertical" >
 
+    <include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    />
     <LinearLayout
         android:id="@+id/lvparent"
         android:layout_width="match_parent"
@@ -29,7 +35,7 @@
             android:layout_below="@+id/txtheader"
             android:layout_centerHorizontal="true"
             android:layout_margin="5dp"
-            class="com.example.iway.codersinc.Drawer.graph.PieView" />
+            class="app.the.iway.codersinc.Drawer.graph.PieView" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -144,7 +150,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:padding="2dp"
-                android:text="TWO"
+                android:text="Five"
                 android:textColor="#000"
                 android:textSize="20sp" />
         </LinearLayout>

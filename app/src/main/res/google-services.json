@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "185130860882",
+    "project_id": "codersinc-146806"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185130860882:android:bb45f9f50ef7296b",
+        "android_client_info": {
+          "package_name": "com.example.iway.codersinc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185130860882-q4ls9fichvrekpnutb4trbgjaek0fulo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iway.codersinc",
+            "certificate_hash": "6DE06458DE5BB7CB41514437170D2440DCCF3066"
+          }
+        },
+        {
+          "client_id": "185130860882-d9e3v4c6ru0dmg1gektbsir7n6ngkjsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ1_evgCLOhIJMnpENdLLGcqdSposN4s0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

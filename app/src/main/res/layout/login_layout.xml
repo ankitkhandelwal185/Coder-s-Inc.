@@ -5,8 +5,8 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="10dp"
-    android:background="#A5D6A7"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.example.iway.codersinc.LoginSignup.LoginActivity">
+    android:background="#37474F"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="app.the.iway.codersinc.LoginSignup.LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +25,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:singleLine="true"
-        android:hint="Username"/>
+        android:hint="Username"
+        android:textColor="#FFFFFF"/>
 
 
     <EditText
@@ -37,7 +38,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:inputType="textPassword"
-        android:hint="Password"/>
+        android:hint="Password"
+        android:textColor="#FFFFFF"/>
 
 
     <Button

@@ -8,4 +8,7 @@
     <color name="tabsScrollColor">#008141</color>
     <color name="layoutColor">#A5D6A7</color>
     <color name="buttoncolor">#9CCC65</color>
+    <color name="orange">#FF9900</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
 </resources>

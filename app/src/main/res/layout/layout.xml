@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#00695C">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HACKERRANK"
+        android:id="@+id/hackerrank"
+        android:onClick="itemClicked"
+        android:checked="false"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CODECHEF"
+        android:id="@+id/codechef"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="89dp"
+        android:checked="false"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HACKEREARTH"
+        android:id="@+id/hackerearth"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="156dp"
+        android:checked="false" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CODEFORCES"
+        android:id="@+id/codeforces"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="215dp"
+         />
+
+
+
+
+</RelativeLayout>

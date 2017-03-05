@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.iway.codersinc">
+    package="app.the.iway.codersinc">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo1"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".Contests.MyApplication">
+        android:name="app.the.iway.codersinc.Contests.MyApplication">
 
-        <activity android:name=".LoginSignup.LoginActivity">
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+
+        <activity android:name="app.the.iway.codersinc.LoginSignup.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginSignup.SignupActivity"></activity>
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".Drawer.graph.GraphActivity"></activity>
-
-
+        <activity android:name="app.the.iway.codersinc.LoginSignup.SignupActivity"></activity>
+        <activity android:name="app.the.iway.codersinc.MainActivity"></activity>
+        <activity android:name="app.the.iway.codersinc.Drawer.graph.GraphActivity"></activity>
+        <activity android:name="app.the.iway.codersinc.Contests.Dialoguebox1"></activity>
+        <activity android:name="app.the.iway.codersinc.recommendation.Recommendation"></activity>
+        <activity android:name="app.the.iway.codersinc.Drawer.ProfileActivity"></activity>
+        <activity android:name="app.the.iway.codersinc.Drawer.AboutUsActivity"></activity>
+        <activity android:name="app.the.iway.codersinc.Drawer.graph.GraphActivity2"></activity>
 
     </application>
 

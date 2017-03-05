@@ -3,21 +3,23 @@
     <group android:checkableBehavior="all">
         <item
             android:id="@+id/navprofile"
-            android:title="Profile" />
+            android:title="Profile"
+            />
         <item
             android:id="@+id/navmanage"
-            android:title="Manage Handles" />
+            android:title="Manage Handles"
+            />
         <item
-            android:id="@+id/navgraph"
-            android:title="Success Graph" />
+            android:id="@+id/recommendation"
+            android:title="Recommendation"
+           />
+
     </group>
     <group android:checkableBehavior="all">
         <item
-            android:title="Notification" />
-        <item
-            android:title="Filter" />
-        <item
-            android:title="Reminder"/>
+            android:title="About Us"
+            android:id="@+id/aboutus"
+            />
     </group>
 
 </menu>

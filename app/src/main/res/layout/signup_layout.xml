@@ -5,9 +5,9 @@
     android:orientation="vertical"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/layoutColor"
+    android:background="#37474F"
     android:gravity="center"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.example.iway.codersinc.LoginSignup.SignupActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="app.the.iway.codersinc.LoginSignup.SignupActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,7 +36,8 @@
         android:padding="10dp"
         android:singleLine="true"
         android:layout_marginBottom="10dp"
-        android:hint="Username"/>
+        android:hint="Username"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -46,7 +47,8 @@
         android:padding="10dp"
         android:singleLine="true"
         android:layout_marginBottom="10dp"
-        android:hint="password"/>
+        android:hint="password"
+        android:textColor="#FFFFFF"/>
 
     <EditText
         android:id="@+id/editTextEmail"
@@ -56,7 +58,8 @@
         android:padding="10dp"
         android:singleLine="true"
         android:layout_marginBottom="10dp"
-        android:hint="Email"/>
+        android:hint="Email"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/submit_btn_register"
@@ -73,7 +76,8 @@
             android:singleLine="true"
             android:layout_marginBottom="10dp"
             android:text="or"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"/>
 
         <com.google.android.gms.common.SignInButton
             android:id="@+id/sign_in_button"

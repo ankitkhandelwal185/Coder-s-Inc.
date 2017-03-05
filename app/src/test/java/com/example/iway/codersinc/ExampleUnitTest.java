@@ -1,4 +1,4 @@
-package com.example.iway.codersinc;
+package com.android.iway.codersinc;
 
 import org.junit.Test;
 

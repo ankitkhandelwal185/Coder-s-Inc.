@@ -11,5 +11,7 @@
     <string name="Share">share</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
+    <string name="facebook_app_id">348381982200619</string>
+    <string name="action_logout">348381982200619</string>
 
 </resources>
